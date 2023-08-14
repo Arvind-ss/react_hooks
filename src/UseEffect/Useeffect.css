@@ -1,0 +1,23 @@
+
+.useEffectbox{
+    display: inline-flex;
+    flex-direction: column;    
+    margin-top: 15%;   
+    justify-content: center;
+}
+.useEffectcontent{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: auto;
+}
+.useEffectcount{
+    margin-top: 20px;
+    height: 50px;
+    border-radius: 10px;
+    font-weight: 500;
+    font-size: larger;
+    background-color: #EBE76C;
+    cursor: pointer;
+    width: 200px;
+}

@@ -15,11 +15,16 @@ const UseState = () => {
   return (
     
     <>
-    <h1>Use State Hook</h1>
-        <div className='box'>           
-            <button className='dec' onClick={dec}>Decrease</button>
-            <h1 className='text'>{counter}</h1>
-            <button className='inc' onClick={inc}>Increase</button>
+    
+        <div className='box'> 
+            <div className='head'>
+                <h1>Use State Hook</h1>
+            </div>
+            <div className='content'>
+                <button className='dec' onClick={dec}>Decrease</button>
+                <h1 className='text'>{counter}</h1>
+                <button className='inc' onClick={inc}>Increase</button>
+            </div>
         </div>
     </>
   )
