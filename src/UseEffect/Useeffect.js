@@ -3,6 +3,7 @@ import "./Useeffect.css";
 import axios from "axios";
 import { useState } from "react";
 import { useEffect } from "react";
+import Box from "../Components/Box";
 
 const Useeffect = () => {
   const [joke, setJoke] = useState({ joke: "", punchline: "" });
@@ -21,10 +22,8 @@ const Useeffect = () => {
   }, [count]);
   return (
     <>
-      <div className="useEffectbox">
-        <div className="useEffecthead">
-          <h1>Use Effect Hook</h1>
-        </div>
+      <div className="useEffectbox">        
+        <Box name="Use Effect Hook"/>
         <div className="useEffectcontent">
           <h3 className="useEffecttext" >{joke.joke}</h3>
           <h4 className="useEffecttext2">{joke.punchline}</h4>
