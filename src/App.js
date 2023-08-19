@@ -1,6 +1,7 @@
 
 import './App.css';
 import Useeffect from './UseEffect/Useeffect';
+import UseLayout from './UseLayout/UseLayout';
 import UseRef from './UseRef/UseRef';
 import UseState from './UseState/UseState';
 
@@ -12,6 +13,7 @@ function App() {
   {/* <UseState/> */}
   {/* <Useeffect/> */}
   {/* <UseRef/> */}
+  <UseLayout/>
     </div>
   );
 }
